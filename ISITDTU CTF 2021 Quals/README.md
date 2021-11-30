@@ -1,4 +1,4 @@
-- [MISC - Watasi Wa...? - Stegano]
+- [MISC - Watasi Wa...? - Stegano](README.md#watasi-wa)
 
 # [MISC]
 ## Watasi Wa...?
