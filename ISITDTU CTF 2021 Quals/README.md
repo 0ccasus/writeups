@@ -1,4 +1,6 @@
-# [MISC - Stegano]
+- [MISC - Watasi Wa...? - Stegano]
+
+# [MISC]
 ## Watasi Wa...?
 Do you know which universe this historical figure belongs to?
 
