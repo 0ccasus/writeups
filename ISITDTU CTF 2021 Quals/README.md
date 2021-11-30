@@ -21,3 +21,30 @@ StegSeek 0.6 - https://github.com/RickdeJager/StegSeek
 	Encryption Algorithm: rijndael-128
 	Encryption Mode:      cbc
 ```
+Let's continue:
+```bash
+$ steghide extract -v --stegofile anime3.jpg --passphrase 0K1TA-SAN
+reading stego file "anime3.jpg"... done
+extracting data... done
+checking crc32 checksum... ok
+writing extracted data to "S3cr3t.txt"... done
+$
+$ cat S3cr3t.txt 
+FG0!!!
+$
+$ 7z e -p'FG0!!!' anime2.zip 
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz (806EC),ASM,AES-NI)
+Scanning the drive for archives:
+1 file, 242 bytes (1 KiB)
+Extracting archive: anime2.zip
+--
+Path = anime2.zip
+Type = zip
+Physical Size = 242
+Everything is Ok
+Size:       24
+Compressed: 242
+$
+$ cat flag.txt 
+ISITDTU{St3g0_15_Fun!!!}
