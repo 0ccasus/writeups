@@ -8,7 +8,7 @@ We are presented with the image *Anime.jpg*. After inspecting the image in its h
 ![first file](./images/anime1.jpg)
 
 ### Solution part 2/3:
-Reopening the original and modified file we now see at the beginning 4 null-bytes which seem to be placeholders for **PKZIP** since the next bytes look much like a .zip file. So we replace them with `50 4B 03 04` and run `zip -FF Anime.jpg --out anime2.zip`. The zip's password isn't found in *rockyou.txt* nor in *crackstation.lst*. Removing the 242 bytes zip block we are left with a beginning 10 null bytes and trailing `FF D9`~~~ISITDTU{Flag_N0t_h3re!!!}~~~. Assuming it's another jpg file, we replace the 10 bytes placeholder with `FF D8 FF E0 00 10 4A 46 49 46`. We get a working jpg file.
+Reopening the original and modified file we now see at the beginning 4 null-bytes which seem to be placeholders for **PKZIP** since the next bytes look much like a .zip file. So we replace them with `50 4B 03 04` and run `zip -FF Anime.jpg --out anime2.zip`. The zip's password isn't found in *rockyou.txt* nor in *crackstation.lst*. Removing the 242 bytes zip block we are left with a beginning 10 null bytes and trailing `FF D9` ~~~ISITDTU{Flag_N0t_h3re!!!}~~~ . Assuming it's another jpg file, we replace the 10 bytes placeholder with `FF D8 FF E0 00 10 4A 46 49 46`. We get a working jpg file.
 
 ### Solution part 3/3:
 In CTFs when you have a password and a JPEG, BMP, WAV or AU file, maybe `steghide` has been used. This check confirms it:
