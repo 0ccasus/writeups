@@ -12,7 +12,7 @@ Reopening the original and modified file we now see at the beginning 4 null-byte
 
 ### Solution part 3/3:
 In CTFs when you have a password and a JPEG, BMP, WAV or AU file, maybe `steghide` has been used. This check confirms it:
-```bash
+```
 $ stegseek --seed anime3.jpg 
 StegSeek 0.6 - https://github.com/RickdeJager/StegSeek
 
@@ -21,8 +21,8 @@ StegSeek 0.6 - https://github.com/RickdeJager/StegSeek
 	Encryption Algorithm: rijndael-128
 	Encryption Mode:      cbc
 ```
-Let's continue:
-```bash
+Let's continue and we get the flag:
+```
 $ steghide extract -v --stegofile anime3.jpg --passphrase 0K1TA-SAN
 reading stego file "anime3.jpg"... done
 extracting data... done
@@ -48,3 +48,4 @@ Compressed: 242
 $
 $ cat flag.txt 
 ISITDTU{St3g0_15_Fun!!!}
+```
