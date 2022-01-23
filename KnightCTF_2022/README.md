@@ -1,4 +1,4 @@
-These are the ones I solved during the 24h of the ctf. Unfortunately time always kills my plans. I only **show** the ones I solved **during** the very little time I had... could have solved **13** more tasks... _anyway how cares_ :) Btw I really __LOVED__ this CTF. __RESPECT__ to the authors.
+These are the ones I solved during the 24h of the ctf. Unfortunately time always kills my plans. I only **show** the ones I solved **during** the very little time I had... could have solved **13** more tasks... _anyway who cares_ :) Btw I really __LOVED__ this CTF. __RESPECT__ to the authors.
 
 # OSINT  
 ## Canada Server (50)  
