@@ -10,6 +10,7 @@
 # OSINT
 ## Canada Server (50)
 _Our sponsor NS TechValley had some problems last year. Their Canada server was not working as expected. Can you find the IP address of that server?_
+
 Flag Format : KCTF{IP_Address_Here}
 Example Flag : KCTF{127.0.0.1}
 Author : NomanProdhan
