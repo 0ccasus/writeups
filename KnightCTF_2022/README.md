@@ -1,12 +1,5 @@
-  
-  
-  
-  
-  
-  
-  
-  
-  
+These are the ones I solved during the 24h of the ctf. Unfortunately time always kills my plans. I only **show** the ones I solved **during** the very little time I had... could have solved **13** more tasks... _anyway how cares_ :)
+
 # OSINT  
 ## Canada Server (50)  
 _Our sponsor NS TechValley had some problems last year. Their Canada server was not working as expected. Can you find the IP address of that server?_  
